@@ -1,0 +1,31 @@
+{{>header}}
+
+<body>
+    {{>navbar}}
+    <!-- main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure>
+                            <img src="images/error.jpg" alt="AboutImage" class="img-fluid" title="WeatherApp" width="350px" height="350px">
+                        </figure>
+                        {{!-- <p>Hey there</p> --}}
+                        <h1>{{errMsg}}</h1>
+                        <a href="/">
+                            <button>
+                                GO BACK
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+
+</body>
+</html>
